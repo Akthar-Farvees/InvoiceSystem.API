@@ -12,6 +12,13 @@ Before cloning and running the project, make sure you have the following install
 - SQL Server (localdb or full version)
 - Git
 
+🛠️ **Note:**  
+> Based on your SQL Server Management Studio (SSMS) and server setup, please adjust the connection string in your `appsettings.json` file:
+
+```
+"DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=InvoiceSystemDb;Trusted_Connection=true;MultipleActiveResultSets=true"
+```
+
 ## 📥 How to Clone the Repository
 
 1. Open a terminal or Git Bash.
